@@ -1,3 +1,17 @@
+/*
+
+Program: ????.java          Last Date of this Revision: September 30, 2019
+
+Purpose: An application that uses nested for loops to output a table that diplays number in 
+ multiples of ten.
+
+Author: Your Name, 
+School: CHHS
+Course: Computer Programming ??
+ 
+
+*/
+
 package University_Staff;
 
 import java.util.Scanner;
@@ -8,43 +22,43 @@ public class Uni_Releaser {
 	
 	{ 
 
-		Scanner input = new Scanner(System.in);
+		try (Scanner input = new Scanner(System.in)) {
+			System.out.println("");
+			System.out.println("Enter employees first name");
+			String Fn = input.next();
 
-		System.out.println("");
-		System.out.println("Enter employees first name");
-		String Fn = input.next();
+			System.out.println("Enter employees last name");
+			String Ln = input.next();
 
-		System.out.println("Enter employees last name");
-		String Ln = input.next();
+			System.out.println("Enter employees salary");
+			int Sal = input.nextInt();
 
-		System.out.println("Enter employees salary");
-		int Sal = input.nextInt();
+			System.out.println("Enter employee type: Faculty or Staff");
+			String EmpType;
+			EmpType = input.next();
 
-		System.out.println("Enter employee type: Faculty or Staff");
-		String EmpType;
-		EmpType = input.next();
+			
+			if(EmpType.equalsIgnoreCase("Faculty")) 
+			
+			{
+				System.out.println("Enter Department name:");
+				String D = input.next();
 
-		
-		if(EmpType.equalsIgnoreCase("Faculty")) 
-		
-		{
-			System.out.println("Enter Department name:");
-			String D = input.next();
-
-			return new Faculty(Fn, Ln, Sal, D);
-		}
+				return new Faculty(Fn, Ln, Sal, D);
+			}
 
 
-		else
+			else
 
-		{
+			{
 
-			System.out.println("Enter job title");
-			String Job = input.next();
+				System.out.println("Enter job title");
+				String Job = input.next();
 
-			return new Staff(Fn, Ln, Sal, Job);
+				return new Staff(Fn, Ln, Sal, Job);
 
  }
+		}
 
 }	
 
@@ -66,3 +80,9 @@ public class Uni_Releaser {
  }	
 
 }
+
+/* Screen Dump
+
+Paste the output of your code here
+ 
+ */

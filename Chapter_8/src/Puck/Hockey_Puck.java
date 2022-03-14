@@ -1,3 +1,17 @@
+/*
+
+Program: ????.java          Last Date of this Revision: September 30, 2019
+
+Purpose: An application that uses nested for loops to output a table that diplays number in 
+ multiples of ten.
+
+Author: Your Name, 
+School: CHHS
+Course: Computer Programming ??
+ 
+
+*/
+
 package Puck;
 
 public class Hockey_Puck 
@@ -19,8 +33,8 @@ public class Hockey_Puck
 
 			Scanner input = new Scanner(System.in);
 			
-			Review_Puck_Part_2_of_2 pA = new Review_Puck_Part_2_of_2(5.5);
-			Review_Puck_Part_2_of_2 yt = new Review_Puck_Part_2_of_2(4.5);
+			Review_Puck_Part_2_of_2 pA = new Review_Puck_Part_2_of_2();
+			Review_Puck_Part_2_of_2 yt = new Review_Puck_Part_2_of_2();
 
 			//standard Review_Puck_Part_2_of_2
 
@@ -56,3 +70,8 @@ public class Hockey_Puck
 
 }
 
+/* Screen Dump
+
+Paste the output of your code here
+ 
+ */
