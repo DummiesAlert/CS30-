@@ -6,7 +6,7 @@ public class Disk_Puck extends Circle_Puck
 
 	private double Thickness;
 	
-	   public disk(double r, double t)
+	   public Disk_Puck(double r, double t)
 	   
 	   {
 	   	super(r);
