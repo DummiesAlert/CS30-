@@ -19,8 +19,6 @@ public class Review_Puck_Part_2_of_2 extends Circle_Puck
 
 {
 
-	{
-
 		double AdMax = 5.5;
 		double AdMin = 5;
 		double YthMax = 4.5;
@@ -105,8 +103,6 @@ public class Review_Puck_Part_2_of_2 extends Circle_Puck
 		  {
 			  return false;
 		  }
-
-	 }
 
 	}	
 }  
