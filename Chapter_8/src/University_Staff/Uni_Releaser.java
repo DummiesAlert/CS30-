@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Uni_Releaser {
 
-	public static Staff assign() 
+	public static UEmployee_One assign() 
 	
-	{
+	{ 
 
 		Scanner input = new Scanner(System.in);
 
@@ -51,9 +51,7 @@ public class Uni_Releaser {
 		//adding main class and employees
 		public static void main(String[] args) {
 
-			Staff emp1;
-			Staff emp2;
-			Staff emp3;
+			UEmployee_One emp1, emp2, emp3;
 
 
 			emp1 = assign();
