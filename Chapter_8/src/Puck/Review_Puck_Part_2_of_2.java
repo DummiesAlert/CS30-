@@ -25,6 +25,7 @@ public class Review_Puck_Part_2_of_2 extends Circle_Puck
 		double YthMin = 4;
 		double weight;
 		boolean standard, youth;
+		private Object div;
 
 		public Review_Puck_Part_2_of_2(double w)
 
@@ -55,8 +56,9 @@ public class Review_Puck_Part_2_of_2 extends Circle_Puck
 
 
 	 {
-		  String = div;
-
+		
+		  Object String = div;
+			
 		  if(standard)
 
 		  {
@@ -70,11 +72,10 @@ public class Review_Puck_Part_2_of_2 extends Circle_Puck
 			  div = "puck is youth";
 		  }
 
-		  return dive;
-
-	 }
-
-
+		  return (java.lang.String) div;
+		  
+		  }
+		
 		public double getWeight()
 
 

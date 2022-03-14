@@ -28,8 +28,8 @@ public class Hockey_Puck
 
 			Scanner input = new Scanner(System.in);
 			
-			Review_Puck_Part_2_of_2 pA = new Review_Puck_Part_2_of_2(5,5);
-			Review_Puck_Part_2_of_2 yt = new Review_Puck_Part_2_of_2(4,5);
+			Review_Puck_Part_2_of_2 pA = new Review_Puck_Part_2_of_2(5.5);
+			Review_Puck_Part_2_of_2 yt = new Review_Puck_Part_2_of_2(4.0);
 
 			//standard Review_Puck_Part_2_of_2
 
