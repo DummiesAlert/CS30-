@@ -2,8 +2,7 @@
 
 Program: ????.java          Last Date of this Revision: September 30, 2019
 
-Purpose: An application that uses nested for loops to output a table that diplays number in 
- multiples of ten.
+Purpose:
 
 Author: Your Name, 
 School: CHHS
@@ -14,16 +13,12 @@ Course: Computer Programming ??
 
 package Puck;
 
+import java.text.NumberFormat;
+import java.util.Scanner;
+
 public class Hockey_Puck 
 
 {
-
-	import java.text.NumberFormat;
-
-
-
-
-	import java.util.Scanner;
 
 
 		public static void main(String[] args)
@@ -33,8 +28,8 @@ public class Hockey_Puck
 
 			Scanner input = new Scanner(System.in);
 			
-			Review_Puck_Part_2_of_2 pA = new Review_Puck_Part_2_of_2();
-			Review_Puck_Part_2_of_2 yt = new Review_Puck_Part_2_of_2();
+			Review_Puck_Part_2_of_2 pA = new Review_Puck_Part_2_of_2(5,5);
+			Review_Puck_Part_2_of_2 yt = new Review_Puck_Part_2_of_2(4,5);
 
 			//standard Review_Puck_Part_2_of_2
 
@@ -53,6 +48,7 @@ public class Hockey_Puck
 
 			int w;
 			double wArg;
+			
 			if(pA.equals(yt))
 
 			{
@@ -67,7 +63,6 @@ public class Hockey_Puck
 			}
 
 		}
-
 }
 
 /* Screen Dump
