@@ -1,3 +1,17 @@
+/*
+
+Program: Faculty_Final.java          Last Date of this Revision: March 16, 2022
+
+Purpose: 
+
+Author: Zhuo Xi Hong, 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
+
+
 package University_Staff_Final;
 
 public class Faculty_Final extends UEmployee_Final
