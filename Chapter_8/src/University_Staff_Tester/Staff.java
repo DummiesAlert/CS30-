@@ -12,59 +12,36 @@ Course: Computer Programming ??
 
 */
 
-package University_Staff;
+package University_Staff_Tester;
 
-public class Faculty extends UEmployee_One {
+public class Staff extends UEmployee_One
 
+{
 
+	private String Title;
 
-
-	
-
-
-	private String Deptname;
-
-
-	
-
-
-	public Faculty(String Fn, String Ln, int Sal, String D) {
-
-
-		super(Fn, Ln, Sal);
-
-
-	
-
-
-		Deptname = D;
-
-
-	}
-
-
-	
-
-
-	
-
-
-	public String toString() {
-
-
-		return(super.toString() + " " + Deptname);
-
-
+		public Staff(String Fn, String Ln, double Sal, String Job) 
 		
+		{
 
+			super(Fn, Ln, Sal);
+			Title = Job;		
 
-	}	
+		}
 
+		public String getTitle() 
+		
+		{
 
-	}
+			return Title;
+
+		}
+
+}
 
 /* Screen Dump
 
 Paste the output of your code here
  
  */
+

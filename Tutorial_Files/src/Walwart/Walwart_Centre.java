@@ -1,12 +1,8 @@
 package Walwart;
 
+import java.text.NumberFormat;
+
 public class Walwart_Centre
-
-{
-
-	import java.text.NumberFormat;
-
-	public class Walwart_Centre 
 
 	{
 
@@ -15,8 +11,9 @@ public class Walwart_Centre
 		
 		System.out.print(emp);
 		pay = emp.pay(payArg);
+	
 		
-		public static void main(String)[] args)
+	public static void main(String)[] args)
 
 		{
 		
@@ -84,9 +81,5 @@ public class Walwart_Centre
 				}
 			
 		}
-		
-	}
-	   
-}
    
 

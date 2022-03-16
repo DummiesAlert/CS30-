@@ -1,39 +1,38 @@
 /*
 
-Program: ????.java          Last Date of this Revision: September 30, 2019
+Program: Uni_Releaser.java          Last Date of this Revision: March 15, 2022
 
-Purpose: An application that uses nested for loops to output a table that diplays number in 
- multiples of ten.
+Purpose: 
 
-Author: Your Name, 
+Author: Zhuo Xi Hong, 
 School: CHHS
-Course: Computer Programming ??
+Course: Computer Programming 30
  
 
 */
 
-package University_Staff;
+package University_Staff_Tester;
 
 import java.util.Scanner;
 
 public class Uni_Releaser {
 
-	public static UEmployee_One assign() 
+	public static Uni_Releaser assign() 
 	
 	{ 
-
+		//Prompt A User With Employee Information.
 		try (Scanner input = new Scanner(System.in)) {
 			System.out.println("");
-			System.out.println("Enter employees first name");
+			System.out.println("Enter Employees First Name");
 			String Fn = input.next();
 
-			System.out.println("Enter employees last name");
+			System.out.println("Enter Employees Last Name");
 			String Ln = input.next();
 
-			System.out.println("Enter employees salary");
+			System.out.println("Enter Employees Salary");
 			int Sal = input.nextInt();
 
-			System.out.println("Enter employee type: Faculty or Staff");
+			System.out.println("Enter Employee Type: Faculty or Staff");
 			String EmpType;
 			EmpType = input.next();
 
@@ -41,7 +40,8 @@ public class Uni_Releaser {
 			if(EmpType.equalsIgnoreCase("Faculty")) 
 			
 			{
-				System.out.println("Enter Department name:");
+				//Prompt User For Department Name If They Are in Faculty
+				System.out.println("Enter Department Name:");
 				String D = input.next();
 
 				return new Faculty(Fn, Ln, Sal, D);
@@ -51,8 +51,8 @@ public class Uni_Releaser {
 			else
 
 			{
-
-				System.out.println("Enter job title");
+				//If Not Faculty, Then Prompt For Employee Job Title
+				System.out.println("Enter Job Title");
 				String Job = input.next();
 
 				return new Staff(Fn, Ln, Sal, Job);
@@ -62,10 +62,10 @@ public class Uni_Releaser {
 
 }	
 
-		//adding main class and employees
+		//Adding Main Class and Employees. Also Declares the Employee Number For Future Reference
 		public static void main(String[] args) {
 
-			UEmployee_One emp1, emp2, emp3;
+			Uni_Releaser emp1, emp2, emp3;
 
 
 			emp1 = assign();
