@@ -27,7 +27,7 @@ public class Business_Account extends Account
 		{
 	    	  bal = bal - 10;
 
-	    	  System.out.println("A busines account requires a minimum balance of $500, a $10 fee has been charged for not meeting the requirements");
+	    	  System.out.println("A busines account requires a minimum balance of $500, a $10.0 fee has been charged for not meeting the requirements");
 	    	  toString();
 		
 		}

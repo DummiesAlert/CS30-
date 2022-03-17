@@ -27,7 +27,7 @@ public class Personal_Account extends Account
 	      {
 	    	  bal = bal - 2;
 		
-	    	  System.out.println("A personal account requires a minimum balance of $100, a $2 fee has been charged for not meeting the requirements");
+	    	  System.out.println("A Personal Account Requires at Least $100, a $2.00 fee has been charged for not meeting the requirements");
 	    	  toString();
 	      }
 	
