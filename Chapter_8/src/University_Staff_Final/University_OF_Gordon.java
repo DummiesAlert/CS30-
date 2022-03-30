@@ -46,6 +46,7 @@ public static UEmployee_Final assign() {
 	/* 
 		  decision making statement depending on whether the previously entered string states that the employee is a faculty member, 
 		  equalsIgnoreCase means the comparison to the inputed string ignores case considerations 				*/ 
+		
 		if(EmpType.equalsIgnoreCase("Faculty")) 
 		
 		{
