@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 public class Uni_Releaser {
 
-	public static Uni_Releaser assign() 
+	public static Faculty  assign() 
 	
 	{ 
 		//Prompt A User With Employee Information.

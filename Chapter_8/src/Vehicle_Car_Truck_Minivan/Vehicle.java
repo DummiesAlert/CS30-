@@ -34,6 +34,11 @@ abstract class Vehicle {
 	}
 	
 		
+	public Vehicle(double feI, String cc, int ccI) {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	/**
 	 * Returns the fEHwy
 	 * pre: none

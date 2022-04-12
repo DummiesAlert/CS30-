@@ -13,23 +13,64 @@ Course: Computer Programming 30
 
 package Vehicle_Car_Truck_Minivan;
 
-public class Minivan extends Vehicle{
+public class Minivan extends Vehicle_2
 
-	public Minivan(int fECity, int fEHwy, int seating, double cargo) {
-		super(fECity, fEHwy, seating, cargo);
-		// TODO Auto-generated constructor stub
+
+{
+
+	private String seatCapS;
+	private double seatCap;
+	private String Minivan;
+
+	public Minivan(String M, String Fe, double FeI, String Cc, int CcI, String Sc, int ScI)
+
+
+	{
+
+		super(FeI, Cc, CcI);
+		seatCapS = Sc;
+		seatCap = ScI;
+		Minivan = M;
+
 	}
 
-	@Override
-	String cargoContainer() {
-		// TODO Auto-generated method stub
-		return null;
+	public Double getSeatCap()
+
+
+	{
+
+		return seatCap;
+
 	}
 
-	@Override
-	String description() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getSeatCapS()
+
+
+	{
+
+		return seatCapS;
+
 	}
+
+
+	public String getMinivan()
+
+
+	{
+
+		return Minivan;
+
+	}
+
+	   public String toString()
+
+
+	   {
+
+		   return "Car type: Minivan" + " Fuel economy: " + 9.3 + " Carrying Capacity: " + 7 + " Seatcap: " + 7;
+
+	   }
 
 }
+
+
