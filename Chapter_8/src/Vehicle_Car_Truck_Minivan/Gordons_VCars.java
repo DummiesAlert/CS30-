@@ -24,9 +24,8 @@ public class Gordons_VCars
 				System.out.println("Enter Choice: ");
 				action = input.next();
 				
-				if(!action.equalsIgnoreCase("Q"));
+				if(!action.equalsIgnoreCase("V"));
 				{
-					
 					System.out.println("Choose a vehicle(1. Labigungun, 2. Truck, 3. Minivan): ");
 					velNum = input.nextInt();
 					
@@ -39,15 +38,24 @@ public class Gordons_VCars
 						
 					}
 					
+				if (!action.equalsIgnoreCase("Q")); 
+				
+				{
 					
+					System.out.println("Thank You For Using Gordon's VCars ");
+
+					
+				}
 					
 				}
 				
-			}while(!action.equalsIgnoreCase("Q"));
+			}
+			
+			while(!action.equalsIgnoreCase("Q"));
+
 		}
 		
 	}
 
-
+	}
 	
-}
