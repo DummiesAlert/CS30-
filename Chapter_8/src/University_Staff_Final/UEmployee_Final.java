@@ -2,7 +2,7 @@
 
 Program: UEmployee_Final.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: To Collect Variables from Employee, etc to prompt and display information for the user
 
 Author: Zhuo Xi Hong, 
 School: CHHS

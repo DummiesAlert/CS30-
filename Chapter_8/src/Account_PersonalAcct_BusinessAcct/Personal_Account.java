@@ -2,7 +2,7 @@
 
 Program: Personal_Account.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: To extend Account and declare variables
 
 Author: Zhuo Xi Hong, 
 School: CHHS

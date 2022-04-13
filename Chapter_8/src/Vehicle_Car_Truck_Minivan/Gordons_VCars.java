@@ -1,5 +1,18 @@
 package Vehicle_Car_Truck_Minivan;
 
+/*
+
+Program: Gordons_VCars.java          Last Date of this Revision: March 16, 2022
+
+Purpose: To collect data from the vehicle classes to prompt user to view vehicle information
+
+Author: Zhuo Xi Hong, 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
+
 import java.util.Scanner;
 
 public class Gordons_VCars 
@@ -59,3 +72,36 @@ public class Gordons_VCars
 
 	}
 	
+/* Screen Dump
+
+ Vehicles \ Quit
+Enter Choice: 
+V
+Choose a vehicle(1. Labigungun, 2. Truck, 3. Minivan): 
+2
+Car type: truck Fuel economy: 2.1 Horse Power: 341 Carrying Capacity: 3
+Thank You For Using Gordon's VCars 
+
+ Vehicles \ Quit
+Enter Choice: 
+
+V
+Choose a vehicle(1. Labigungun, 2. Truck, 3. Minivan): 
+1
+Car type: Sedan Fuel economy: 8.9 Carrying Capacity: 5 Doors: 4
+Thank You For Using Gordon's VCars 
+
+ Vehicles \ Quit
+Enter Choice: 
+
+V
+Choose a vehicle(1. Labigungun, 2. Truck, 3. Minivan): 
+3
+Car type: Minivan Fuel economy: 9.3 Carrying Capacity: 7 Seatcap: 7
+Thank You For Using Gordon's VCars 
+
+
+
+
+
+*/

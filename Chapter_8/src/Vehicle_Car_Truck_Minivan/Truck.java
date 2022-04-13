@@ -1,8 +1,8 @@
 /*
 
-Program: Vehicle.java          Last Date of this Revision: September 30, 2019
+Program: Truck.java          Last Date of this Revision: April 3, 2022
 
-Purpose: An Class Example For a Use For the Task
+Purpose: Features of a Truck
 
 Author: Zhuo Xi Hong, 
 School: CHHS

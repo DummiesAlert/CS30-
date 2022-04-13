@@ -2,7 +2,7 @@
 
 Program: Customer.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: Given class to be inherited by Bank of Gordon
 
 Author: Zhuo Xi Hong, 
 School: CHHS

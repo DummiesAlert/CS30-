@@ -1,8 +1,8 @@
 /*
 
-Program: Vehicle.java          Last Date of this Revision: September 30, 2019
+Program: Labigungun.java          Last Date of this Revision: March 22, 2022
 
-Purpose: An Class Example For a Use For the Task
+Purpose: Declare Features of a Labigungun
 
 Author: Zhuo Xi Hong, 
 School: CHHS

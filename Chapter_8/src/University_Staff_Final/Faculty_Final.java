@@ -2,7 +2,7 @@
 
 Program: Faculty_Final.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: To declare variables for faculty staff
 
 Author: Zhuo Xi Hong, 
 School: CHHS

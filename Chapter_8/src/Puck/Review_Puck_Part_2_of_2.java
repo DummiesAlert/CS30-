@@ -1,9 +1,8 @@
 /*
 
-Program: ????.java          Last Date of this Revision: September 30, 2019
+Program: Review_Puck_Part_2_of_2.java          Last Date of this Revision: March 18, 2022
 
-Purpose: An application that uses nested for loops to output a table that displays number in 
- multiples of ten.
+Purpose: An applications that extends Circle_Puck to display puck inforamtion and prompt users for it
 
 Author: Your Name, 
 School: CHHS

@@ -1,8 +1,16 @@
 /*
 
-Program: ????.java          Last Date of this Revision: September 30, 2019
+Program: Hockey_Puck.java          Last Date of this Revision: September 30, 2019
 
-Purpose:
+Purpose: Create a Puck class that inherits the Disk class. The Puck class should include member variables weight,
+standard, and youth. The standard and youth variables should be boolean variables that are set to either true
+or false depending on the weight of the puck. A standard puck weighs between 5 and 5.5 ounces. A youth
+puck weighs between 4 and 4.5 ounces. Official hockey pucks, regardless of weight, are one inch-thick with a
+three-inch diameter. The Puck class should also contain member methods getWeight(), getDivision(), which
+returns a string stating whether the puck is standard or youth, and equals() and toString(), which overrride
+the same methods in the Disk class. The Puck constructor should require an argument for weight. Be sure
+that the constructor initializes other variables to appropriate values as necessary.
+Create a Hockey application that tests the Puck class.
 
 Author: Your Name, 
 School: CHHS
@@ -13,7 +21,6 @@ Course: Computer Programming ??
 
 package Puck;
 
-import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Hockey_Puck 

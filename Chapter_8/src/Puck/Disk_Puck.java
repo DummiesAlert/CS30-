@@ -1,13 +1,12 @@
 /*
 
-Program: ????.java          Last Date of this Revision: September 30, 2019
+Program: Disk.java          Last Date of this Revision: March 23, 2022
 
-Purpose: An application that uses nested for loops to output a table that diplays number in 
- multiples of ten.
+Purpose: Disk class to declare variables and be inherited by the Puck 
 
-Author: Your Name, 
+Author: Zhuo Xi Hong, 
 School: CHHS
-Course: Computer Programming ??
+Course: Computer Programming 30
  
 
 */

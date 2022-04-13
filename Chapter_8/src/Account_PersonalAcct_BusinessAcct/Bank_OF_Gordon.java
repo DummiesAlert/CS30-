@@ -1,5 +1,18 @@
 package Account_PersonalAcct_BusinessAcct;
 
+/*
+
+Program: Bank_OF_Gordon.java          Last Date of this Revision: April 5, 2022
+
+Purpose: Prompt information of the customer by inheriteing other class in the package
+
+Author: Zhuo Xi Hong, 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
+
 import java.util.Scanner;
 
 public class Bank_OF_Gordon 

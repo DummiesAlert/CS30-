@@ -2,7 +2,7 @@
 
 Program: Account.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: To be used to be inherited by bank of Gordon
 
 Author: Zhuo Xi Hong, 
 School: CHHS

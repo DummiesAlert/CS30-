@@ -2,7 +2,7 @@
 
 Program: University_OF_Gordon.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: To Collect Data and Prompt Users for Information
 
 Author: Zhuo Xi Hong, 
 School: CHHS

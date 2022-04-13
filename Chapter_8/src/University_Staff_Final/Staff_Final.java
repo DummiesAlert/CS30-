@@ -2,7 +2,7 @@
 
 Program: Staff_Final.java          Last Date of this Revision: March 16, 2022
 
-Purpose: 
+Purpose: Declare Variables For Staff
 
 Author: Zhuo Xi Hong, 
 School: CHHS
