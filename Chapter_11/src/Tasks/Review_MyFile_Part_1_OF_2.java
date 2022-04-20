@@ -4,78 +4,34 @@ package Tasks;
 import java.io.*;
 import java.util.Scanner;
 
-public class Review_MyFile_Part_1_OF_2 {
-
-	{
-
 public static void main(String[] args)
 
 
 		{
 
-
-		
-
-
 		Scanner input = new Scanner(System.in);
-
-
-		
-
-
-		System.out.println("Please Enter the name of a file: ");
-
-
-		
-
-
+		System.out.print("Please Enter the name of a file: ");
 		String fileName = input.next();
-
-
-			
-
 
 			   File textFile = new File(fileName);
 
-
-			
-
-
 			   if(textFile.exists())
 
-
 			   {
-
 
 				System.out.println("File already exists.");
 
-
 			   }
-
 
 			   else
 
-
 			   {
-
 
 				System.out.println("File does not exist.");
 
-
 			   }
 
-
-		
-
-
-		
-
-
 		}
-
-
-		
-
 
 	}
 

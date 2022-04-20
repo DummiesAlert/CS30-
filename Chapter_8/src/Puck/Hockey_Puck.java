@@ -74,6 +74,13 @@ public class Hockey_Puck
 
 /* Screen Dump
 
-Paste the output of your code here
+5.5
+puck is standard
+1.0
+4.0
+puck is youth
+1.0
+false
+
  
  */
