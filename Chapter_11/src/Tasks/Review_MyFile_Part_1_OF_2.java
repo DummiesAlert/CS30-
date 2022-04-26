@@ -4,7 +4,9 @@ package Tasks;
 import java.io.*;
 import java.util.Scanner;
 
-public static void main(String[] args)
+public class Review_MyFile_Part_1_OF_2 {
+	
+public static void main(String[] args) 
 
 
 		{
@@ -33,3 +35,5 @@ public static void main(String[] args)
 			   }
 
 		}
+
+}
