@@ -10,6 +10,7 @@ public static void main(String[] args)
 		{
 
 		Scanner input = new Scanner(System.in);
+		
 		System.out.print("Please Enter the name of a file: ");
 		String fileName = input.next();
 
@@ -32,9 +33,3 @@ public static void main(String[] args)
 			   }
 
 		}
-
-	}
-
-
-
-}
