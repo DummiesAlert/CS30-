@@ -58,7 +58,7 @@ public class Metric_Conversion_GUI {
 		panel.add(convTypePrompt);
 		
 		JComboBox converType = new JComboBox();
-		converType.setModel(new DefaultComboBoxModel(new String[] {"Select One", "", "Inches (in) to Centimeters (cm)", "Feet (ft) to Meters (m)", "Gallons (gal) to Liters (L)", "Pound (lb) to Kilograms (kg)"}));
+		converType.setModel(new DefaultComboBoxModel(new String[] {"Select One", " _ ", "Inches (in) to Centimeters (cm)", "Feet (ft) to Meters (m)", "Gallons (gal) to Liters (L)", "Pound (lb) to Kilograms (kg)"}));
 		converType.setBounds(194, 104, 186, 26);
 		panel.add(converType);
 		
@@ -84,7 +84,7 @@ public class Metric_Conversion_GUI {
 				 {
 					 Conversion_From_One_To_Another = "Please Select A Metric Conversion";
 				 }
-				 else if(converType.getSelectedItem().equals(" "))
+				 else if(converType.getSelectedItem().equals(" _ "))
 				 {
 					 Conversion_From_One_To_Another = "Please Select A Metric Conversion";
 				 }
