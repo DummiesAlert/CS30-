@@ -1,4 +1,18 @@
-package Tasks;
+package Chapter_11_Demo_Excercise;
+
+/*
+
+Program: ????.java          Last Date of this Revision: 
+
+Purpose: Create a Roster application that prompts the user for the name of the file to store student names and then
+prompts the user for the number of students in a class. The application should then prompt the user for
+the first and last name of each student and write this data to a file. After all the data is written to a file, the
+application display the class roster with one name after the other in a list. Create a StuName class that has
+member variables firstName and lastName and a toString() member method.
+
+Author: Zhuo Xi Hong, 
+School: CHHS
+Course: Computer Programming 30
 
 	import java.io.*;
 	import java.util.Scanner;
@@ -83,7 +97,7 @@ package Tasks;
 	/* Screen Dump
 
 
-	Enter the name of the test file:test2.txt
+	Enter the name of the test file:Student_Bad_Grades.txt
 	How Many Students?
 	2
 	Enter Student First Name

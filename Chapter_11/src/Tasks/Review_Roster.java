@@ -35,14 +35,13 @@ public class Review_Roster extends Student_Name
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter the Name Of The File: ");
 		fileName = input.nextLine();
-		dataFile = new File(fileName);
 		System.out.print("Enter The Number Of Students: ");
 		StuNum = input.nextInt();
 
 		try
 
 		{
-			FileOutputStream out = new FileOutputStream(dataFile);
+			FileOutputStream out = new FileOutputStream(fileName);
 			ObjectOutputStream writeStu = new ObjectOutputStream(out);
 			
 			for (int i = 0; i < StuNum; i++)
@@ -63,7 +62,7 @@ public class Review_Roster extends Student_Name
 
 			System.out.println("Data Written To File.");
 
-			FileInputStream in = new FileInputStream(dataFile);
+			FileInputStream in = new FileInputStream(fileName);
 			ObjectInputStream readStuName = new ObjectInputStream(in);
 
 			for(int i = 0; i < StuNum; i++)

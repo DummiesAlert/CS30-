@@ -1,5 +1,10 @@
 package Tasks;
 
+//purpose:Modify the Stats application to allow the user to enter the names and grades of the students. The user should
+be prompted for the name of the file to create and for the number of student grades that will be entered.
+After the data has been entered and the written to a file, the file should be read and the lowest, highest, and
+average score displayed.
+
 import java.io.*;
 import java.text.NumberFormat;
 import java.util.Scanner;

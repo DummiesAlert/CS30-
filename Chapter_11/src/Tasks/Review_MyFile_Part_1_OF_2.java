@@ -1,5 +1,19 @@
 package Tasks;
 
+/*
+
+Program: Review_MyFile_Part_1_OF_2.java          Last Date of this Revision: May 5,2022
+
+Purpose: Create a MyFile application that prompts the user for the name of a file and then displays a message that
+indicates whether the files exists or not. Note that if the user types in a full path, any single backslashes (\)
+will need to be replaced with an escape sequence(\\) in order to create a new File object.
+
+Author: Zhuo Xi Hong 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
 
 import java.io.*;
 import java.util.Scanner;
@@ -37,3 +51,9 @@ public static void main(String[] args)
 		}
 
 }
+
+/* Screen Dump
+
+Paste the output of your code here
+ 
+ */

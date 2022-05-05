@@ -1,5 +1,20 @@
 package Tasks;
 
+/*
+
+Program: ????.java          Last Date of this Revision: 
+
+Purpose: Create a Stats application that reads names and scores from a data file named Student_Bad_Grades.txt, supplied with this
+text. The file contains a student name on one line followed by the student’s test score on the next line. The
+Stats application should read and display each name and score. After all the scores have been displayed, the
+lowest score, highest score, and average score should be displayed.
+
+Author: Zhuo Xi Hong, 
+School: CHHS
+Course: Computer Programming 30
+
+*/
+
 import java.io.*;
 
 public class Review_Stats_Part_1_OF_2 
@@ -52,22 +67,30 @@ public class Review_Stats_Part_1_OF_2
 		System.out.println("Average Score: " + AvgScore);
 			readFile.close();
 			in.close();
-		}catch(FileNotFoundException e)
+		}
+		
+		catch(FileNotFoundException e)
+		
 		{
 			System.out.println("File does not exist!");
 			System.err.println("FileNotFoundException: "+ e.getMessage());
 		}
 		catch(IOException e)
+		
 		{
 			System.out.println("File does not exist!");
 			System.err.println("IOException: "+ e.getMessage());
 		}
-		
-		
-		
+			
 	}
-	
 }
 
+*/
+
+/* Screen Dump
+ 
+Paste the output of your code here
+ 
+ */
 
 
