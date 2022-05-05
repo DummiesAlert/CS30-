@@ -70,6 +70,19 @@ public class Review_MyFile_Part_2_OF_2
 
 /* Screen Dump
  
-Paste the output of your code here
+Run #1: 
+
+New file created.
+\ Keep File \ Delete
+k
+The file has been kept.
+
+Run #2: 
+
+New file created.
+\ Keep File \ Delete
+d
+The file has been deleted.
+
  
  */

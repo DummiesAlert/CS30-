@@ -54,6 +54,16 @@ public static void main(String[] args)
 
 /* Screen Dump
 
-Paste the output of your code here
+Run #1:
+
+Please Enter the name of a file: FAR.txt
+File already exists.
+
+Run #2: 
+
+Please Enter the name of a file: FAR
+File does not exist.
+
+
  
  */
