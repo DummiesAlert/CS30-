@@ -5,6 +5,13 @@ import java.util.Scanner;
 
 public class Review_Find_And_Replace {
 
+	/*
+	 
+	 use FAR.txt
+	 
+	 */
+	
+	
 	public static void main(String[] args) 
 	{
 		String fileName, searchText, replaceText;

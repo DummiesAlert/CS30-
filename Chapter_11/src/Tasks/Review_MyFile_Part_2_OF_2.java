@@ -12,7 +12,7 @@ public class Review_MyFile_Part_2_OF_2 {
 
 	{
 
-		File textFile = new File("zzz.txt");
+		File textFile = new File("abcd.txt");
 
 		Scanner input = new Scanner(System.in);
 
@@ -34,7 +34,7 @@ public class Review_MyFile_Part_2_OF_2 {
 				System.err.println("IOException: " + e.getMessage());
 			}
 
-			System.out.println("n\\ Keep File \\ Delete");
+			System.out.println("\\ Keep File \\ Delete");
 			String action = input.next();
 			String K;
 			String D;
