@@ -130,17 +130,20 @@ public class Bank
 	 	} else {
 	 		System.out.println("Account does not exist.");
 	 	}
+	}
+}
 
 
 
-
+/*
 	//Create a modifyAccount(String AcctID) method 
 	//if(acctIndex > 1) 
 	{
-		acct = accounts.get..
-		acct.changeAddress()
+		acct = accounts.get.;
+		acct.changeAddress();
 		//print acct to the screen
 	}
+	
 	else
 	{
 	 
@@ -149,3 +152,5 @@ public class Bank
 
 	}
 }
+	 	
+	 	*/
