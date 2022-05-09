@@ -25,10 +25,10 @@ public static void main(String[] args)
 
 		{
 
-		Scanner input = new Scanner(System.in);
+			Scanner input = new Scanner(System.in);
 		
-		System.out.print("Please Enter the name of a file: ");
-		String fileName = input.next();
+			System.out.print("Please Enter the name of a file: ");
+			String fileName = input.next();
 
 			   File textFile = new File(fileName);
 
@@ -36,7 +36,7 @@ public static void main(String[] args)
 
 			   {
 
-				System.out.println("File already exists.");
+				   System.out.println("File already exists.");
 
 			   }
 
@@ -44,7 +44,7 @@ public static void main(String[] args)
 
 			   {
 
-				System.out.println("File does not exist.");
+				   System.out.println("File does not exist.");
 
 			   }
 
