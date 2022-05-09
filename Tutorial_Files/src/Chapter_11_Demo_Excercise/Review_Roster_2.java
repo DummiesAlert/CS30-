@@ -14,6 +14,8 @@ Author: Zhuo Xi Hong,
 School: CHHS
 Course: Computer Programming 30
 
+*/
+
 	import java.io.*;
 	import java.util.Scanner;
 

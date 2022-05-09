@@ -9,7 +9,7 @@ public class Walwart_Centre
 		NumberFormat money = NumberFormat.getCurrencyInstance();
 		double pay;
 		
-		System.out.print(emp);
+		System.out.println(emp);
 		pay = emp.pay(payArg);
 	
 		

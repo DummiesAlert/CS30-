@@ -143,7 +143,7 @@ public class Bank
 	}
 	else
 	{
-	  print Account does not exits
+	 
 	}	
 
 
