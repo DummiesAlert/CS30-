@@ -80,7 +80,7 @@ public class Review_Find_And_Replace {
 
 /*
 
-Run #1:
+Run #1: (to test code and .txt)
 
 Enter the Name of the File:FAR.txt
 What Letter/Word/Phrase would you like to replace?
@@ -91,7 +91,7 @@ I can hear your heart beating.
 Replacing a with v
 I cvn hevr your hevrt bevting.
 
-Run #2:
+Run #2: (to fix and test .txt)
 
 Enter the Name of the File:FAR.txt
 What Letter/Word/Phrase would you like to replace?
