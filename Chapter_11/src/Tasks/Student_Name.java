@@ -27,7 +27,7 @@ import java.io.Serializable;
 		
 		{
 
-			firstName = fn;
+			firstName = fn; 
 			lastName = ln;
 
 		}
