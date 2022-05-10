@@ -24,7 +24,7 @@ public class Review_MyFile_Part_2_OF_2
 	{
 	
 
-		File textFile = new File("abcd.txt");
+		File textFile = new File("abcd.txt"); //Creates file name 
 
 		try (Scanner input = new Scanner(System.in)) {
 			try
@@ -32,13 +32,13 @@ public class Review_MyFile_Part_2_OF_2
 
 				{
 
-					textFile.createNewFile();
-					System.out.println("New file created.");
+					textFile.createNewFile(); //Creates file
+					System.out.println("New file created."); //Display message that file been created
 
 
 				}
 			
-				catch(IOException e)
+				catch(IOException e) //Catch if the file couldn't be created becasue of already exist or maybe just no. 
 
 				{
 
@@ -46,8 +46,11 @@ public class Review_MyFile_Part_2_OF_2
 					System.err.println("IOException: " + e.getMessage());
 				}
 
-				System.out.println("\\ Keep File \\ Delete");
+				System.out.println("\\ Keep File \\ Delete"); //Prompt the user if they want to keep or delete the file.
 				String action = input.next();
+				
+				//Displays the user if the file is kept or deleted based of the users input above. 
+				
 				if(action.equalsIgnoreCase("K"))
 				{
 

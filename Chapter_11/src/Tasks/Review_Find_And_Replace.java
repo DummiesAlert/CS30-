@@ -25,6 +25,19 @@ public class Review_Find_And_Replace {
 	 
 	 */
 	
+	/*
+
+	 	Creates String fileName, searchText and replaceText prepares to readFile and create String replaced. 
+	 	
+	 	Then prompts the user for the file name inside the java project rather than the package itself. 
+	 	
+	 	Then prompts the user for the Letter/Word/Phrase they would like to replace in the file and the program 
+	 	reads the file for the inputed information, if not exist, goes to catch.exception. 
+	 	
+	 	If successful the program displays a message telling the user the information has been replaced into the 
+	 	file and what the result is after replacing the information.
+
+	*/
 	
 	public static void main(String[] args) 
 	{
@@ -59,6 +72,12 @@ public class Review_Find_And_Replace {
 				readFile.close();
 				in.close();
 			
+				/*
+
+					Catches if the file doesn't exist or can not read the file. 
+
+				*/
+				
 			}catch(FileNotFoundException e)
 			{
 				System.out.println("File does not exist!");

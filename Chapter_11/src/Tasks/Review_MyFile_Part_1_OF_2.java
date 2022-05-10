@@ -27,12 +27,12 @@ public static void main(String[] args)
 
 			Scanner input = new Scanner(System.in);
 		
-			System.out.print("Please Enter the name of a file: ");
+			System.out.print("Please Enter the name of a file: "); //Prompts user for the file name inside the java project. 
 			String fileName = input.next();
 
-			   File textFile = new File(fileName);
+			   File textFile = new File(fileName); //Look for file
 
-			   if(textFile.exists())
+			   if(textFile.exists()) //determines if it exist from above and display if the file exist or not.
 
 			   {
 
@@ -64,6 +64,4 @@ Run #2:
 Please Enter the name of a file: FAR
 File does not exist.
 
-
- 
  */

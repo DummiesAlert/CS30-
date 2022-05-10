@@ -20,13 +20,18 @@ import java.io.*;
 public class Review_Stats_Part_1_OF_2 
 
 /*
-Use Grade.txt
+Uses Grade.txt
 */
 
 {
 	public static void main(String[] args)
 
+	/*
 
+		Recognize the file C:\\Users\\904273001\\git\\CS30-\\Chapter_11\\Grade.txt inside the java project and creates 
+		variables couble and int and strings to be used to read the file and store the data into them. 
+
+	*/
 	
 	{
 
@@ -47,7 +52,14 @@ Use Grade.txt
 			in = new FileReader(dataFile);
 			readFile = new BufferedReader(in);
 			
-			while((StuName = readFile.readLine()) != null)
+			/*
+			  
+				Does the math to calculate the highest grade and lowest grade within the file and stores them into the 
+				Score and StuName. And also displays all the names and scores of students in the file in an list, way. 
+				
+			*/
+
+			while((StuName = readFile.readLine()) != null) //while loop
 			{
 				Score = readFile.readLine();
 				System.out.println(StuName + " " + Score);
@@ -64,16 +76,30 @@ Use Grade.txt
 					highScore = scoreValue;
 				}
 				
-			}//while loop
+			}
 			
 			AvgScore = totalScore / numScores;
+			
+			/*
+			 * 
+				Displays the results to the user. 
+				
+			*/
+
 			System.out.println("Lowest Score: " + lowScore);
-		System.out.println("Highest Score: " + highScore);
-		System.out.println("Average Score: " + AvgScore);
+			System.out.println("Highest Score: " + highScore);
+			System.out.println("Average Score: " + AvgScore);
 			readFile.close();
 			in.close();
 		}
 		
+		/*
+		
+			Catchs for errors like if the file doesn't exist in the java project or that
+			the file is in the wrong area and can not be read. 
+		
+		*/
+
 		catch(FileNotFoundException e)
 		
 		{
@@ -92,7 +118,19 @@ Use Grade.txt
 
 /* Screen Dump
  
-Run #1: 
+Run #1:
+
+Zac 0
+Alisha 96
+Abdalla 100
+Zacie 88
+Gordon  24
+Chemie 43
+Lowest Score: 0.0
+Highest Score: 0.0
+Average Score: 0.0
+ 
+Run #2: 
 
 Zac 0
 Alisha 96
@@ -105,5 +143,3 @@ Highest Score: 100.0
 Average Score: 58.5
  
  */
-
-

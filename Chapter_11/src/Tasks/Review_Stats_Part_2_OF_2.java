@@ -20,10 +20,22 @@ import java.io.*;
 import java.text.NumberFormat;
 import java.util.Scanner;
 
+	/*
+ 
+		Uses Grade2.txt
+
+	*/
 public class Review_Stats_Part_2_OF_2 
 
 {
 
+	/*
+	  
+		Prepares to read and write into the file, in and out, then uses .getPercentInstance(); and create 
+		Strings, doubles and ints to store and the program does math later. 
+	
+	*/
+	
 	public static void main(String[] args)
 
 	{
@@ -46,21 +58,20 @@ public class Review_Stats_Part_2_OF_2
 		int numScores = 0;
 		int StuNum;
 
-		System.out.print("Enter the name Of The File: ");
+		System.out.print("Enter the name Of The File: "); //Prompts for file name inside the java project 
 		fileName = input.next();
 
-		System.out.print("Enter The Number Of Students: ");
+		System.out.print("Enter The Number Of Students: "); //Prompts for the number of students 
 		StuNum = input.nextInt();
 
 		try
 		
 		{
-
 			dataFile = new File(fileName);
 			out = new FileWriter(dataFile);
 			writeFile = new BufferedWriter(out);
 
-			for (int i = 0; i < StuNum; i++)
+			for (int i = 0; i < StuNum; i++) //Loop as to how many students were entered above, and repeats the amount of times asked. 
 
 			{
 
@@ -71,6 +82,8 @@ public class Review_Stats_Part_2_OF_2
 				System.out.print("Enter Test Score: ");
 				Score = input.next();
 
+				//Reads and writes into the file
+				
 				writeFile.write(StuName);
 				writeFile.newLine();
 
@@ -80,7 +93,7 @@ public class Review_Stats_Part_2_OF_2
 
 			writeFile.close();
 			out.close();
-			System.out.println("Data Written To File.");
+			System.out.println("Data Written To File."); //Tells user the data is written into the file.
 
 		}
 		
@@ -98,18 +111,24 @@ public class Review_Stats_Part_2_OF_2
 			try
 
 			{
+				//Read file
+				
 				dataFile = new File(fileName);
 				in = new FileReader(dataFile);
 			    readFile = new BufferedReader(in);
 
+			    /*
+				  
+				Does the math to calculate the highest grade and lowest grade within the file and stores them into the 
+				Score and StuName. And also displays all the names and scores of students in the file in an list, way. 
+				
+			    */
+			    
 			    while((StuName = readFile.readLine()) != null)
-
 			    	{
 
 				Score = readFile.readLine();
-
 				System.out.println(StuName + " " + Score);
-
 
 				numScores += 1;
 				scoreValue = Double.parseDouble(Score);
@@ -132,11 +151,12 @@ public class Review_Stats_Part_2_OF_2
 				   
 			    	}
 
-			AvgScore = totalScore / numScores;
-
-		System.out.println("Lowest Score: " + num.format(lowScore));
-		System.out.println("Highest Score: " + num.format(highScore));
-		System.out.println("Average Score: " + num.format(AvgScore));
+			AvgScore = totalScore / numScores; //Determines the highest score
+			
+			//Prints out the results to the user
+			System.out.println("Lowest Score: " + num.format(lowScore));
+			System.out.println("Highest Score: " + num.format(highScore));
+			System.out.println("Average Score: " + num.format(AvgScore));
 		
 		} catch (IOException e)
 
@@ -209,5 +229,4 @@ Lowest Score: 20%
 Highest Score: 20%
 Average Score: 20%
 
- 
  */

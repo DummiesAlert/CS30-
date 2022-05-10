@@ -17,9 +17,15 @@ Course: Computer Programming 30
 import java.io.Serializable;
 
 
-	public class Student_Name implements Serializable
+	public class Student_Name implements Serializable //Keeps data in file serialized, corrupted to hide data. 
 
+	/*
 
+		This makes a String firstName and lastName and declare it as fn and ln in order to be used in 
+		the mother class Roster and uses this class to return the fn and ln values. 
+
+	*/
+	
 	{
 		private String firstName;
 		private String lastName;

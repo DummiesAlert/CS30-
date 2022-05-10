@@ -29,16 +29,31 @@ import java.util.Scanner;
 
 public class Review_Roster extends Student_Name
 
+/*
+
+	 
+
+*/
 
 {
 
-	public Review_Roster(String fn, String ln)
+	public Review_Roster(String fn, String ln) //Extends and inherits Student_Name into this class and super the fn and ln values into the class.
 
 	{
 		super(fn, ln);
 	}
 
 
+	/*
+
+	 Creates String fileName, firstName and lastName into the class and input a scanner. Then prompts the user
+	 to enter the name of the file existing in the java project rather than in the package itself, and prompts
+	 the user for the number of students. Then stores the data into the strings and then the program reads the 
+	 file and writes into it. While writing it prompts the user to enter the first and last name, the same amount
+	 as the user input here [System.out.print("Enter The Number Of Students: "); and StuNum = input.nextInt();]
+
+	*/
+	
 	public static void main(String[] args)
 
 	{
@@ -72,15 +87,14 @@ public class Review_Roster extends Student_Name
 			}
 
 			writeStu.close();
+			out.close();
 
-			//out.close();
-
-			System.out.println("Data Written To File.");
+			System.out.println("Data Written To File."); //Displays the user that the information is successfully written in the code.
 
 			FileInputStream in = new FileInputStream(fileName);
 			ObjectInputStream readStuName = new ObjectInputStream(in);
 
-			for(int i = 0; i < StuNum; i++)
+			for(int i = 0; i < StuNum; i++) //Used to repeat the amount of times it asks for the first and last name
 				
 			{
 
@@ -90,7 +104,13 @@ public class Review_Roster extends Student_Name
 
 			readStuName.close();
 
+			/*
 
+			 	To catch exceptions like user input does'nt meet requirements or the file couldn't be found or that
+			 	the information the user inputed object can not be displayed in the file.
+
+			*/
+			
 		}catch (FileNotFoundException e)
 
 		{
