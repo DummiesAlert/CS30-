@@ -1,6 +1,6 @@
 package Tasks;
 
-public class Search {
+public class Search { 
 	
 	public static int linear(int[] nameCount, int name)
 	{

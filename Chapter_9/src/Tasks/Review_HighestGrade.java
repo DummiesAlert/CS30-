@@ -24,7 +24,7 @@ package Tasks;
 		    for(int i = 0; i < grade.length;i ++)
 
 		    {
-				  	    System.out.println("Enter a grade between 0 and 100: "); 	  
+				  	    System.out.println("Enter a Grade Between 0-100: "); 	  
 				  	    num = input.nextInt();
 				  	    grade[i] = num;
 
