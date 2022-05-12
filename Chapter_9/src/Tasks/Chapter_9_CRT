@@ -1,1 +1,65 @@
-Questions #1 - #8 
+1. What index value does the third element of an array have?
+
+		The index value value that the third element of an array is 2. 
+		
+2. Write the declaration for an array named quantities that stores 20 integers.
+
+		Int[20] quantities;
+		
+3. Write a declaration for an array named heights storing the numbers 1.65, 2.15, and 4.95.
+
+		double[] heights = {1.65, 2.15, 4.95};
+		
+4. Write a for-each statement that displays the integer values stored in an array named grades.
+
+		For (String element: grades)
+
+		{
+
+			System.out.println(element);
+
+		}
+
+5. 
+
+	a) Write an algorithm for inserting data into an array so that existing data is moved up one position to make room for the new data.
+
+		for((int i = 0; i < Object.width;i ++))
+
+		{
+
+			Object.add(int index, Object element)
+
+		}
+		
+	b) Write an algorithm for deleting data from an array so that existing data is moved to close the gap made by the deleted data.
+	
+	
+		for((int i = 0; i < Object.width;i ++))
+
+		{
+
+			Object.remove(2);
+
+		}
+	
+6. How does passing an entire array to a method differ from passing a single element of the array?
+
+		Passing a whole array allows the method to access an element of the array and change its value. While passing a single element only passes the data stored, and not a reference to the data location.
+	
+7. Why are offset array indexes required in some cases.
+
+		For storing large numbers for a counter.
+
+8. What output is displayed by the statements below?
+
+String name = “Elaine”;
+System.out.println(name.charAt(3));
+
+E: 0
+l: 1
+a: 2
+i: 3
+n: 4
+e: 5
+	
