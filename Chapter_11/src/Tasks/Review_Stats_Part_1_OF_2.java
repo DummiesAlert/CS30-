@@ -20,7 +20,7 @@ import java.io.*;
 public class Review_Stats_Part_1_OF_2 
 
 /*
-Uses Grade.txt
+	Uses Grade.txt
 */
 
 {
