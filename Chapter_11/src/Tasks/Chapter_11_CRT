@@ -1,0 +1,37 @@
+1. Data can be in memory because it is a form of medium that can be used to store data from the user and programmer. 
+
+2. There can be three different ways to import packages from the one in the file or another package, that it can do to 
+   require access to the File Class in an application. They are without importing the package, import package with a 
+   specific class at hand or importing a package with all classes. 
+
+	For example:
+
+		import.java.io*;
+		import pack.Test;
+		import.java.util.Scanner;
+		import.java.sql.io;
+		import testerReally.*;
+
+3. The error is the file name at the beginning of the statement, where it should be just the .txt file name inside the 
+   package because then it’ll be faster to prompt the user and find the file without the C:/ Users that make it private 
+   only for the computer at hand and not on another. 
+
+4. 
+
+	a) “Catch” is the statement used to write an exception handler. 
+	b) Write an exception handler to handle an IOException if a specified file name cannot be used to create a file. 
+	   The exception handler should display appropriate messages to the user.
+
+	catch (IOException e)
+
+		{
+
+			System.out.println(Problem Creating File.”);
+			System.err.println(“IOException: “ + e.getMessage());
+
+		}
+
+5. 
+	a) The stream name for displaying error messages is “An exception handler”.
+	b) And this stream name will display when an error occurs in the code, normally the error tab or when the user begins the program and doesn’t work. 
+ 
