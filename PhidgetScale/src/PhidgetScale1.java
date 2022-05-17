@@ -1,9 +1,8 @@
-package Phidget_Scale;
 
 //Add Phidgets Library
 import com.phidget22.*;
 
-public class Scale_1 {
+public class PhidgetScale1 {
     public static void main(String[] args) throws Exception{
         //Create
         VoltageRatioInput scale = new VoltageRatioInput();
