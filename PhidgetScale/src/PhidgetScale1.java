@@ -16,5 +16,5 @@ public class PhidgetScale1 {
             Thread.sleep(250);
         }
     }    
-}
+} 
   
