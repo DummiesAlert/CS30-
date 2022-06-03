@@ -12,7 +12,7 @@ public class PhidgetScale2_lb {
         scale.open(1000);
         
         //Use your Offset Value
-        double offsetValue = 2.4032779049143558E-5;
+        double offsetValue = 3.530131654595086E-5;
         
         //Use your Phidgets
         while(true){

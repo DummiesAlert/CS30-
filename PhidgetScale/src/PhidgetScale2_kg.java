@@ -12,12 +12,12 @@ public class PhidgetScale2_kg {
         scale.open(1000);
          
         //Use your Offset Value
-        double offsetValue = 2.4032779049143558E-5;
+        double offsetValue = 3.530131654595086E-5;
         
         //Use your Phidgets
         while(true){
 
-            //Calculate Weight (kg)
+            //Calculate Weight (kg) 
             double weight = (4700 * (scale.getVoltageRatio() - offsetValue));
             
             //Display Weight
@@ -27,4 +27,3 @@ public class PhidgetScale2_kg {
         }
     }    
 }
-  
