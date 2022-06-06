@@ -1,5 +1,6 @@
-
 //Add Phidgets Library
+//Based off of the 25kg Weight
+
 import com.phidget22.*;
 
 public class PhidgetScale2_kg {
@@ -12,7 +13,7 @@ public class PhidgetScale2_kg {
         scale.open(1000);
          
         //Use your Offset Value
-        double offsetValue = 3.530131654595086E-5;
+        double offsetValue =  9.954208512769178E-5;
         
         //Use your Phidgets
         while(true){

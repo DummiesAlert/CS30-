@@ -1,4 +1,5 @@
 //Add Phidgets Library
+
 import com.phidget22.*;
 
 public class PhidgetScale1 {
@@ -13,7 +14,7 @@ public class PhidgetScale1 {
         while(true){
             System.out.println("Offset Value: " + scale.getVoltageRatio());
             Thread.sleep(250);
-        }
+        } 
     }    
 }
   

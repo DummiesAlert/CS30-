@@ -46,42 +46,45 @@ public class ScaleCalibration {
 			System.out.println("Your new slope value is: " + Math.round(slope));
 		}
     }    
-}
+} 
   
-//0.024kg Wrapped Around Wire
-//0.021kg Wrapped In Hole
-//Item #1: Graphing Calculator 0.277 kg
-
+ 
 /*
 
-Run #1: (0.780 kg) 
+Item #1.5: Zac Phone 0.202kg
+Item #2: Alisha Phone 0.204 kg
+Item #3: My Calculator 0.203kg
+
+Run #1: (25 kg) Item #3
 
 Make Sure NOTHING is on Your Scale and Press Enter
 
 Averaging Value...
 Place a Known Weight on the Scale, Type the Weight in Kilograms and Press Enter
-0.012
-Averaging Value... 
-Your new slope value is: 4839
+0.203
+Averaging Value...
+Your new slope value is: 24293
 
-Run #2: (5 kg)
+Run #2: (25 kg) Item #2
 
 Make Sure NOTHING is on Your Scale and Press Enter
 
 Averaging Value...
 Place a Known Weight on the Scale, Type the Weight in Kilograms and Press Enter
-0.021
+0.204
 Averaging Value...
-Your new slope value is: 4846
+Your new slope value is: 24302
 
-Run #3: (25 kg)
+
+Run #3: (25 kg) Item #1.5
 
 Make Sure NOTHING is on Your Scale and Press Enter
 
 Averaging Value...
 Place a Known Weight on the Scale, Type the Weight in Kilograms and Press Enter
-????
+0.202
 Averaging Value...
-Your new slope value is: ?????
+Your new slope value is: 24418
+
 
 */
