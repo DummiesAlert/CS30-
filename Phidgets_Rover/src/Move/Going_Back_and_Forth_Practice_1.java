@@ -1,9 +1,10 @@
-package Rover;
+package Move;
+
 
 //Add Phidgets Library
 import com.phidget22.*;
 
-public class PhidgetsRover {
+public class Going_Back_and_Forth_Practice_1 {
     public static void main(String[] args) throws Exception {
 
         //Connect to wireless rover
@@ -22,8 +23,8 @@ public class PhidgetsRover {
         rightMotors.open(5000);
 
         //Move forward at full speed
-        leftMotors.setTargetVelocity(1);
-        rightMotors.setTargetVelocity(1);
+        leftMotors.setTargetVelocity(0.5); //Change to 0.5
+        rightMotors.setTargetVelocity(0.5);
 
         //Wait for 1 second
         Thread.sleep(1000);
