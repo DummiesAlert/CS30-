@@ -59,7 +59,7 @@ Run #1: (25 kg) Item #3
 
 Make Sure NOTHING is on Your Scale and Press Enter
 
-Averaging Value...
+Averaging Value... 
 Place a Known Weight on the Scale, Type the Weight in Kilograms and Press Enter
 0.203
 Averaging Value...
@@ -79,7 +79,7 @@ Your new slope value is: 24302
 Run #3: (25 kg) Item #1.5
 
 Make Sure NOTHING is on Your Scale and Press Enter
-
+ 
 Averaging Value...
 Place a Known Weight on the Scale, Type the Weight in Kilograms and Press Enter
 0.202
