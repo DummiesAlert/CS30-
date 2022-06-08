@@ -3,7 +3,7 @@ package Avoid_Obstacles;
 //Add Phidgets Library
 	import com.phidget22.*;
 
-	public class Avoid_Obstacles {
+	public class Avoid_Obstacles_3 {
 	    public static void main(String[] args) throws Exception {
 
 	        //Connect to wireless rover
@@ -22,6 +22,7 @@ package Avoid_Obstacles;
 	        leftMotors.open(5000);
 	        rightMotors.open(5000);
 	        sonar.open(5000);
+	        sonar.setDataInterval(100);
 
 	        while (true) {
 
@@ -38,8 +39,7 @@ package Avoid_Obstacles;
 	            }
 
 	            //Wait for 250milliseconds
-	            Thread.sleep(250);
+	            Thread.sleep(100);
 	        }
 	    }
 	}
-	  

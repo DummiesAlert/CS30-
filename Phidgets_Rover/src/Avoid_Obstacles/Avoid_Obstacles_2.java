@@ -1,9 +1,8 @@
 package Avoid_Obstacles;
-
 //Add Phidgets Library
 	import com.phidget22.*;
 
-	public class Avoid_Obstacles {
+	public class Avoid_Obstacles_2 {
 	    public static void main(String[] args) throws Exception {
 
 	        //Connect to wireless rover
@@ -27,14 +26,36 @@ package Avoid_Obstacles;
 
 	            System.out.println("Distance: " + sonar.getDistance() + " mm");
 	            
-	            if (sonar.getDistance() < 200) {
+	            if (sonar.getDistance() < 450) {
+	            	
 	                //Object detected! Stop motors
 	                leftMotors.setTargetVelocity(0);
 	                rightMotors.setTargetVelocity(0);
+	                
+	                
+	                //Object detected! Stop motors
+	                leftMotors.setTargetVelocity(-1);
+	                rightMotors.setTargetVelocity(-1);
+	    	        //Wait for 1 second
+	    	        Thread.sleep(2000);
+	    	        
+	    	        
+	    	        //Turn in one direction
+	    	        leftMotors.setTargetVelocity(-1);
+	    	        rightMotors.setTargetVelocity(1);
+
+	    	        //Wait for 2 second
+	    	        Thread.sleep(1000);
+
+	    	        //Move forward at full speed
+	    	        leftMotors.setTargetVelocity(1);
+	    	        rightMotors.setTargetVelocity(1);
+	    	        
+	    	        Thread.sleep(2000);
 	            } else {
 	                //Move forward slowly (25% max speed)
-	                leftMotors.setTargetVelocity(-0.25);
-	                rightMotors.setTargetVelocity(-0.25);
+	                leftMotors.setTargetVelocity(-0.5);
+	                rightMotors.setTargetVelocity(-0.5);
 	            }
 
 	            //Wait for 250milliseconds
@@ -42,4 +63,3 @@ package Avoid_Obstacles;
 	        }
 	    }
 	}
-	  
