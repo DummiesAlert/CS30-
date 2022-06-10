@@ -4,9 +4,9 @@ package Tasks;
 
 Program: Review_Stats_Part_1_OF_2.java          Last Date of this Revision: May 5, 2022
 
-Purpose: Create a Stats application that reads names and scores from a data file named Student_Bad_Grades.txt, supplied with this
-text. The file contains a student name on one line followed by the student’s test score on the next line. The
-Stats application should read and display each name and score. After all the scores have been displayed, the
+Purpose: Create a Stats application that reads names and scores from a data file named Student_Bad_Grades.txt, 
+supplied with this text. The file contains a student name on one line followed by the studentâ€™s test score on the next line. 
+The Stats application should read and display each name and score. After all the scores have been displayed, the
 lowest score, highest score, and average score should be displayed.
 
 Author: Zhuo Xi Hong, 
@@ -35,16 +35,16 @@ public class Review_Stats_Part_1_OF_2
 	
 	{
 
-		File dataFile = new File("C:\\Users\\904273001\\git\\CS30-\\Chapter_11\\Grade.txt");
-		FileReader in;
-		BufferedReader readFile;
-		String StuName, Score;
-		double scoreValue = 0;
-		double lowScore = 100;
-		double highScore = 0;
-		double AvgScore = 0;
-		double totalScore = 0;
-		int numScores = 0;
+		File dataFile = new File("C:\\Users\\904273001\\git\\CS30-\\Chapter_11\\Grade.txt"); //Recognize the File Within a Specific Place
+		FileReader in; //Find file
+		BufferedReader readFile; //Read File
+		String StuName, Score; //Create String 
+		double scoreValue = 0; //Create Double
+		double lowScore = 100; //Create Double
+		double highScore = 0; //Create Double
+		double AvgScore = 0; //Create Double
+		double totalScore = 0; //Create Double
+		int numScores = 0; //Create Int
 		
 		try
 		{
@@ -59,19 +59,19 @@ public class Review_Stats_Part_1_OF_2
 				
 			*/
 
-			while((StuName = readFile.readLine()) != null) //while loop
+			while((StuName = readFile.readLine()) != null) //While loop
 			{
-				Score = readFile.readLine();
+				Score = readFile.readLine(); //Use Grades in the Specific File
 				System.out.println(StuName + " " + Score);
-				numScores += 1;
+				numScores += 1; //Calculate how Many Grades are There
 				scoreValue = Double.parseDouble(Score);
-				totalScore += scoreValue;
+				totalScore += scoreValue; //Creates Average of the Grades
 				
-				if(scoreValue < lowScore)
+				if(scoreValue < lowScore) //Determines the Lowest Grade
 				{
 					lowScore = scoreValue;
 				}
-				if(scoreValue > highScore)
+				if(scoreValue > highScore) //Determines the Highest Grade
 				{
 					highScore = scoreValue;
 				}
@@ -103,13 +103,13 @@ public class Review_Stats_Part_1_OF_2
 		catch(FileNotFoundException e)
 		
 		{
-			System.out.println("File does not exist!");
+			System.out.println("File does not exist!"); //File Doesn't Exist
 			System.err.println("FileNotFoundException: "+ e.getMessage());
 		}
 		catch(IOException e)
 		
 		{
-			System.out.println("File does not exist!");
+			System.out.println("File does not exist!"); //File Doesn't Exist 2
 			System.err.println("IOException: "+ e.getMessage());
 		}
 			
