@@ -37,52 +37,42 @@ public class Review_Roster extends Student_Name
 
 {
 
-	public Review_Roster(String fn, String ln) //Extends and inherits Student_Name into this class and super the fn and ln values into the class.
+	public Review_Roster(String fn, String ln) //Extends and Inherits Student_Name Into This Class and Super the fn and ln Values Into the Class.
 
 	{
 		super(fn, ln);
 	}
-
-
-	/*
-
-	 Creates String fileName, firstName and lastName into the class and input a scanner. Then prompts the user
-	 to enter the name of the file existing in the java project rather than in the package itself, and prompts
-	 the user for the number of students. Then stores the data into the strings and then the program reads the 
-	 file and writes into it. While writing it prompts the user to enter the first and last name, the same amount
-	 as the user input here [System.out.print("Enter The Number Of Students: "); and StuNum = input.nextInt();]
-
-	*/
 	
 	public static void main(String[] args)
 
 	{
 
 
-		String fileName;
-		String firstName, lastName;
-		int StuNum;
+		String fileName; //Create Strings 
+		String firstName, lastName; //Create Strings 
+		int StuNum; //Create int for Non-decimal
+		
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter the Name Of The File: ");
+		System.out.print("Enter the Name Of The File: "); //Prompt User for Name of the File
 		fileName = input.nextLine();
-		System.out.print("Enter The Number Of Students: ");
+		System.out.print("Enter The Number Of Students: "); //Prompt User for the Number of Students
 		StuNum = input.nextInt();
 
 		try
 
 		{
-			FileOutputStream out = new FileOutputStream(fileName);
-			ObjectOutputStream writeStu = new ObjectOutputStream(out);
+			FileOutputStream out = new FileOutputStream(fileName); //Use File
+			ObjectOutputStream writeStu = new ObjectOutputStream(out); //To Write Into the File
 			
-			for (int i = 0; i < StuNum; i++)
+			for (int i = 0; i < StuNum; i++) //Based off of how Many Students Were Entered 
 
 			{
 
-				System.out.print("Enter the Student's First Name: ");
-				firstName = input.next();
-				System.out.print("Enter the Student's Last Name: ");
-				lastName = input.next();
-				writeStu.writeObject(new Student_Name(firstName, lastName));
+				System.out.print("Enter the Student's First Name: "); //Ask for First Name
+				firstName = input.next(); //Store 
+				System.out.print("Enter the Student's Last Name: "); //Ask for Last Name
+				lastName = input.next(); //Store 
+				writeStu.writeObject(new Student_Name(firstName, lastName)); //Write all Information Into the File
 
 			}
 
@@ -114,26 +104,24 @@ public class Review_Roster extends Student_Name
 		}catch (FileNotFoundException e)
 
 		{
-			System.out.println("File Could Not Be found.");
+			System.out.println("File Could Not Be found."); //File not Found
 			System.err.println("FileNotFoundException: " + e.getMessage());
 		}
 
 		catch(IOException e)
 		
 		{
-			System.out.println("Problem with input/output");
+			System.out.println("Problem with input/output"); //User Input is not Found
 			System.err.println("IOException: " + e.getMessage());
 		}
 
 		catch(ClassNotFoundException e)
 
 		{
-			System.out.println("Class could not be used to cast object.");
+			System.out.println("Class could not be used to cast object."); //Cannot Find the Class 
 			System.err.println("ClassNotFoundException: " + e.getMessage());
 		}
-
 	}
-
 }
 
 /* Screen Dump
