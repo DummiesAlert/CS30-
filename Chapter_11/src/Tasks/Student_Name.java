@@ -27,9 +27,10 @@ import java.io.Serializable;
 	*/
 	
 	{
-		private String firstName;
-		private String lastName;
-		public Student_Name(String fn, String ln)
+		private String firstName; //Private String Designated in This File
+		private String lastName; //Private String Designated in This File
+		
+		public Student_Name(String fn, String ln) //Declare String to be Inherited
 		
 		{
 
@@ -38,7 +39,7 @@ import java.io.Serializable;
 
 		}
 
-		public String toString()
+		public String toString() //Return fn and ln in This Class and Inheriter
 
 		{
 			return(firstName + " " + lastName);
