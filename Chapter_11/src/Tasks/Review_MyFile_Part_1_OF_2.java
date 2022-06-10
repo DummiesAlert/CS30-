@@ -27,16 +27,16 @@ public static void main(String[] args)
 
 			Scanner input = new Scanner(System.in);
 		
-			System.out.print("Please Enter the name of a file: "); //Prompts user for the file name inside the java project. 
+			System.out.print("Please Enter the name of a file: "); //Prompts User for the File Name Inside the Java Project. 
 			String fileName = input.next();
 
 			   File textFile = new File(fileName); //Look for file
 
-			   if(textFile.exists()) //determines if it exist from above and display if the file exist or not.
+			   if(textFile.exists()) //Determines if the File Exists or not and Displays to User
 
 			   {
 
-				   System.out.println("File already exists.");
+				   System.out.println("File already exists."); 
 
 			   }
 
@@ -47,9 +47,7 @@ public static void main(String[] args)
 				   System.out.println("File does not exist.");
 
 			   }
-
 		}
-
 }
 
 /* Screen Dump
