@@ -39,24 +39,24 @@ public class Review_Stats_Part_2_OF_2
 	public static void main(String[] args)
 
 	{
-		File dataFile;
-		FileWriter out;
-		FileReader in;
-		BufferedWriter writeFile;
-		BufferedReader readFile;
+		File dataFile; 
+		FileWriter out; //Write Data Out
+		FileReader in; //Read in
+		BufferedWriter writeFile; //Ready to Write Into the file
+		BufferedReader readFile; //Ready to Read the File
 		
 		Scanner input = new Scanner(System.in);
-		NumberFormat num = NumberFormat.getPercentInstance();
-		String StuName;
-		String Score;
-		String fileName;
-		double scoreValue = 0;
-		double lowScore = 100;
-		double highScore = 0;
-		double AvgScore = 0;
-		double totalScore = 0;
-		int numScores = 0;
-		int StuNum;
+		NumberFormat num = NumberFormat.getPercentInstance(); //For Percent Math 
+		String StuName; //Create String
+		String Score; //Create String
+		String fileName; //Create String
+		double scoreValue = 0; //Create Double
+		double lowScore = 100; //Create Double
+		double highScore = 0; //Create Double
+		double AvgScore = 0; //Create Double
+		double totalScore = 0; //Create Double
+		int numScores = 0; //Create Int
+		int StuNum; //Create Int
 
 		System.out.print("Enter the name Of The File: "); //Prompts for file name inside the java project 
 		fileName = input.next();
@@ -75,11 +75,11 @@ public class Review_Stats_Part_2_OF_2
 
 			{
 
-				System.out.print("Enter Student Name: ");
+				System.out.print("Enter Student Name: "); //Prompt User for Student Name 
 				StuName = input.next();
 
-				System.out.print("*Note the Test Grade is Out of 1, ");
-				System.out.print("Enter Test Score: ");
+				System.out.print("*Note the Test Grade is Out of 1, "); //Tells the User That the Test Total is Out of 1
+				System.out.print("Enter Test Score: "); //Prompt User for Test Score
 				Score = input.next();
 
 				//Reads and writes into the file
@@ -101,13 +101,12 @@ public class Review_Stats_Part_2_OF_2
 
 		{
 
-			System.out.println("Problem Writing To File.");
+			System.out.println("Problem Writing To File."); //Problem Writing in the File
 			System.err.println("IOException: " + e.getMessage());
 
 
 		}
 
-			//read file
 			try
 
 			{
@@ -115,7 +114,7 @@ public class Review_Stats_Part_2_OF_2
 				
 				dataFile = new File(fileName);
 				in = new FileReader(dataFile);
-			    readFile = new BufferedReader(in);
+			    	readFile = new BufferedReader(in);
 
 			    /*
 				  
@@ -124,26 +123,26 @@ public class Review_Stats_Part_2_OF_2
 				
 			    */
 			    
-			    while((StuName = readFile.readLine()) != null)
+			    while((StuName = readFile.readLine()) != null) //While Loop
 			    	{
 
 				Score = readFile.readLine();
-				System.out.println(StuName + " " + Score);
+				System.out.println(StuName + " " + Score); //Displays Each Students Name With There Grade
 
-				numScores += 1;
+				numScores += 1; //Numbers Each Score
 				scoreValue = Double.parseDouble(Score);
 				totalScore += scoreValue;
 				
-				numScores += 1;
+				numScores += 1; //Numbers Each Score
 				totalScore += scoreValue;
 
-				   if(scoreValue < lowScore)
+				   if(scoreValue < lowScore) //Finds Lowest Grade
 
 				     {
 					     lowScore = scoreValue;
 				     }
 
-				   if(scoreValue > highScore)
+				   if(scoreValue > highScore) //Find Highest Grade
 
 				     {
 					     highScore = scoreValue;
@@ -162,12 +161,11 @@ public class Review_Stats_Part_2_OF_2
 
 		{
 
-			System.out.println("Problem Writing To File.");
+			System.out.println("Problem Writing To File."); //Cannot Write Into the file
 			System.err.println("IOException: " + e.getMessage());
+				
 		}
-
 	}
-
 }
 
 /* Screen Dump
