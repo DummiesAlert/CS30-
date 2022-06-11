@@ -1,11 +1,11 @@
 package Puck;
 
-	public class Hockey
+	public class Hockey_Game
 	{
 		public static void main(String[] args)
 		{
-			Puck_Program pA = new Puck_Program(3.5);
-			Puck_Program yt = new Puck_Program(2.0);
+			Puck_2_Extends_Puck pA = new Puck_2_Extends_Puck(3.5);
+			Puck_2_Extends_Puck yt = new Puck_2_Extends_Puck(2.0);
 
 			System.out.println(pA.getWeight());//print out pAWeight
 			System.out.println(pA.getDivision());//print out pADivision
