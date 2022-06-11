@@ -1,78 +1,55 @@
-//Put Truck into CarDealearship Package
+/*
+Program: University_Of_Gordon.java          Last Date of this Revision: June 9 2022
+
+Purpose: Create Features of Trucc_Kun to be Inherited by Gordon_Vcars
+
+Author: Zhuo Xi Hong
+School: CHHS
+Course: Computer Programming 30
+ 
+*/
+
 package Gordon_Vcars;
 
-
-
-//Truck class inherits Vehicle class
 public class Trucc_Kun extends Vehicle
 {
 
-	
-	//constructor method
+	//Constructor Method
 	public Trucc_Kun(int fECity, int fEHwy, int seating, double cargo) 
 	{
 		super(fECity, fEHwy, seating, cargo);
 		
 	}
-
 	
-	
-	//String method to return Cargo Volume
-	String cargoContainer() 
+	String cargoContainer() //String method to Return Cargo Volume
 	{
 		return("\nCargo Volume of the Car is: "+ super.getCargoVolume() + " Cubic Feet");
 	}
 
-	
-	
-	
-	//String Method to return Description of the Vehicle
-	String description() {
-		return("\nA Truck has not as good of a fuel economy as a Car. "
-				+ "\nThe Truck seats four passengers and one driver. \n"
-				+ "Their main use comes from the fact they have a large cargo bed."
-				+ "\nTrucks are able to carry large goods with the cargo bed. "
-				+ "\nTrucks are also better at offroading then cars and minivans.");
+	String description() { //String Method to Return Description of the Vehicle
+		return("\n N/A");
 	}
 	
 	
-	
-	
-	//String Method to return the Seating of the Vehicle
-	String Seating() 
+	String Seating() //String Method to Return the Seating of the Vehicle
 	{
 		return("\nThe Vehicle has " + super.getSeating() + " Seats ");
 	}
 	
-	
-	
-	
-	//String Method to return the Fuel Economy of the Vehicle in the City
-	String FECity()
+	String FECity() //String Method to Return the Fuel Economy of the Vehicle in the City
 	{
-		return("Fuel Economy in the city is: " + super.getFECity() + " Miles Per Gallon");
+		return("Fuel Economy in the City is: " + super.getFECity() + " Miles Per Gallon");
 	}
 	
 	
-	
-	
-	//String Method to return the Fuel Economy of the Vehicle on the Highway
-	String FEHwy()
+	String FEHwy() //String Method to Return the Fuel Economy of the Vehicle on the Highway
 	{
 		return("\nFuel Economy on the Highway is: " + super.getFEHwy() + " Miles Per Gallon");
 	}
 	
-	
-	
-	
-	//toString Method to return Fuel Economy, seating, cargo, and description of vehicle
-	public String toString() 
+	public String toString() //toString Method to return Fuel Economy, Seating, Cargo, and Description of Vehicle
 	{
 		return(FECity() + FEHwy() + Seating() + cargoContainer() + description());
 
 	}
-	
-	
-	
-
 }

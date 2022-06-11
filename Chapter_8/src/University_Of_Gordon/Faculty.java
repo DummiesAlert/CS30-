@@ -1,36 +1,35 @@
-//Put Faculty into package called University
+/*
+Program: Faculty.java          Last Date of this Revision: June 9 2022
+
+Purpose: Create Variables to be Inherited by University_Of_Gordon
+
+Author: Zhuo Xi Hong
+School: CHHS
+Course: Computer Programming 30
+ 
+*/
+
 package University_Of_Gordon;
 
-
-//Faculty class inherits UEmployee class
 public class Faculty extends U_Employee_Freddies {
 	
-	
-	
-	//initialize department variable
 	private String dept;
 
-	
-	//constructor method
+	//Constructor Method
 	public Faculty(String fn, String ln, String d, double s) 
 	{
 		super(fn, ln,s);
 		dept = d;
 	}
 	
-	
-	//String method to return department
-	String getDept() 
+	String getDept() //String Method to Return Department
 	{
 		return dept;
 	}
 	
-	
-	//String Method to return Faculty Department
-	public String toString()
+	public String toString() //String Method to Return Faculty Department
 	{
 	return(super.toString()+ "\nFaculty Department: " + getDept());
 	}
-	
-	
+		
 }
