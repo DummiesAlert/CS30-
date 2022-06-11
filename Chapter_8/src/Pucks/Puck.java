@@ -1,10 +1,8 @@
 package Pucks;
 
-import java.awt.EventQueue;
-
 //Class called Puck inherits Disk class
 //Implements Comparable to be able to compare objects to each other
-public class Puck extends Disk implements Comparable{
+public class Puck extends Disk implements Comparable<Object>{
 	
 	//Create Double Variable Weight
 	private double weight;
@@ -13,7 +11,7 @@ public class Puck extends Disk implements Comparable{
 	private boolean standard,youth;
 
 	/**
-	 * Launch the application.
+	 * Launch the application. 
 	 */
 
 	/**
