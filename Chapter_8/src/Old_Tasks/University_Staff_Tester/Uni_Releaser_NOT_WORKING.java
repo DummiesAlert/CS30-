@@ -15,7 +15,7 @@ package Old_Tasks.University_Staff_Tester;
 
 import java.util.Scanner;
 
-public class Uni_Releaser {
+public class Uni_Releaser_NOT_WORKING {
 
 	public static Staff assign() 
 	
