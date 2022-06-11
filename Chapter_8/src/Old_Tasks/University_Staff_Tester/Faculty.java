@@ -11,7 +11,7 @@ Course: Computer Programming 30
 
 */
 
-package University_Staff_Tester;
+package Old_Tasks.University_Staff_Tester;
 
 public class Faculty extends UEmployee_One 
 

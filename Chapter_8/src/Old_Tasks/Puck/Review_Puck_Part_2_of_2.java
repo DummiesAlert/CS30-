@@ -11,7 +11,7 @@ Course: Computer Programming ??
 
 */
 
-package Puck;
+package Old_Tasks.Puck;
 
 
 public class Review_Puck_Part_2_of_2 extends Circle_Puck

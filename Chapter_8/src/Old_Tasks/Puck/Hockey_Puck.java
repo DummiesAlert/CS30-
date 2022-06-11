@@ -19,7 +19,7 @@ Course: Computer Programming ??
 
 */
 
-package Puck;
+package Old_Tasks.Puck;
 
 import java.util.Scanner;
 

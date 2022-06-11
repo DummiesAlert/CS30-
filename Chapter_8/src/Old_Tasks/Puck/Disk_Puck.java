@@ -11,7 +11,7 @@ Course: Computer Programming 30
 
 */
 
-package Puck;
+package Old_Tasks.Puck;
 
 public class Disk_Puck extends Circle_Puck
 

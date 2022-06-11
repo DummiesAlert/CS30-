@@ -11,7 +11,7 @@ Course: Computer Programming 30
 
 */
 
-package Vehicle_Car_Truck_Minivan;
+package Old_Tasks.Vehicle_Car_Truck_Minivan;
 
 public class Truck extends Vehicle_2
 

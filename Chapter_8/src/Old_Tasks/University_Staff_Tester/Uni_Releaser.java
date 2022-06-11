@@ -11,13 +11,13 @@ Course: Computer Programming 30
 
 */
 
-package University_Staff_Tester;
+package Old_Tasks.University_Staff_Tester;
 
 import java.util.Scanner;
 
 public class Uni_Releaser {
 
-	public static Faculty assign() 
+	public static Staff assign() 
 	
 	{ 
 		//Prompt A User With Employee Information.
@@ -42,9 +42,8 @@ public class Uni_Releaser {
 			{
 				//Prompt User For Department Name If They Are in Faculty
 				System.out.println("Enter Department Name:");
-				String D = input.next();
 
-				return new Faculty(Fn, Ln, Sal, D);
+				//return new Faculty(Fn, Ln, Sal, D);
 			}
 
 
@@ -59,13 +58,16 @@ public class Uni_Releaser {
 
  }
 		}
+		return null;
 
 }	
 
 		//Adding Main Class and Employees. Also Declares the Employee Number For Future Reference
 		public static void main(String[] args) {
 
-			Uni_Releaser emp1, emp2, emp3;
+			Staff emp1;
+			Staff emp2;
+			Staff emp3;
 
 
 			emp1 = assign();
