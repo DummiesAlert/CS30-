@@ -46,3 +46,18 @@ package Puck;
 			}
 		}
 }
+
+/*
+	
+Run: 
+
+3.5
+puck is youth
+1.0
+2.0
+puck is youth
+1.0
+false
+
+	
+*/
