@@ -1,5 +1,5 @@
 /*
-Program: University_Of_Gordon.java          Last Date of this Revision: June 9 2022
+Program: Minibun.java          Last Date of this Revision: June 9 2022
 
 Purpose: Create Minibun Features to be Inherited by Gordon_Vcars
 

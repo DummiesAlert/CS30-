@@ -1,5 +1,5 @@
 /*
-Program: University_Of_Gordon.java          Last Date of this Revision: June 9 2022
+Program: Business_Account.java          Last Date of this Revision: June 9 2022
 
 Purpose: Create Features of a Business Account to be Inherited by Bank_Of_Gordon
 

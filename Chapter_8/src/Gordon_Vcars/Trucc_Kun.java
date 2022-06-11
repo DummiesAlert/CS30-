@@ -1,5 +1,5 @@
 /*
-Program: University_Of_Gordon.java          Last Date of this Revision: June 9 2022
+Program: Trucc_Kun.java          Last Date of this Revision: June 9 2022
 
 Purpose: Create Features of Trucc_Kun to be Inherited by Gordon_Vcars
 
