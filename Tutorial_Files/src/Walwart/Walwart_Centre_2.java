@@ -1,10 +1,11 @@
-package Tutorial_File.src.Sales_Center_Walwart_Example_Template;
+/*
+package Walwart;
 
-public class Walwart_Centre {
+public class Walwart_Centre_2 {
 
 	import java.text.NumberFormat;
 
-	public class Walwart_Centre 
+	public class Walwart_Centre_2 
 
 	{
 
@@ -86,4 +87,4 @@ public class Walwart_Centre {
 	}
 	   
 }
-   
+   */
